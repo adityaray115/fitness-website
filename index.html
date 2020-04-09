@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>LMNTRIX Fitness Club</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/Untitled-1.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+
+    <body>
+
+        <nav class="navbar nav-expand-sm navbar-light bg-light sticky-top">
+            
+                <a class="navbar-brand nav-icon"><img src="images/logo.png"></a>
+                <span class="navbar-text">Let's Burn Fitness Center</span>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trainings.html">trainings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="time_table.html">time table</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nutrition.html">nutrition</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">gallery</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <div class="main-win-content" >
+            <div class="tab">
+
+                <div class="row1 slideshow-container">
+                    <div class="my-slides" id="slides">
+                        <q>
+                            The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion.
+                        </q>
+                        <p class="author">Arnold Schwarzenegger</p>
+                    </div>
+
+                    <div class="my-slides" id="slides">
+                        <q>
+                            All progress takes place outside the comfort zone.
+                        </q>
+                        <p class="author">Michael John Bobak</p>
+                    </div>
+
+                    <div class="my-slides" id="slides">
+                        <q>
+                            The only place where success comes before work is in the dictionary.
+                        </q>
+                        <p class="author">Vidal Sassoon</p>
+                    </div>
+
+                    <div class="my-slides" id="slides">
+                        <q>
+                            The clock is ticking. Are you becoming the person you want to be?
+                        </q>
+                        <p class="author">Greg Plitt</p>
+                    </div>
+
+                    <a class="prev" onclick="plus_slide(-1)">&#10094</a>
+                    <a class="next" onclick="plus_slide(1)">&#10095</a>
+
+                    <div class="dot-con">
+                        <span class="dot" onclick="current_slide(1)"></span>
+                        <span class="dot" onclick="current_slide(2)"></span>
+                        <span class="dot" onclick="current_slide(3)"></span>
+                        <span class="dot" onclick="current_slide(4)"></span>
+                    </div>
+                </div>
+
+                <div class="row1 btn-reg"><img src="images/body.jpg"><p>What are You Waiting for? This could be you....<br><a href="#">register now</a></p></div>
+            
+            </div>
+
+            <div class="info">
+                <div class="matr">
+                    <div class="info-head">About Our Club</div>
+                    <div class="info-matr">
+                        Our Club offers various activites like, but not limited to, Indoor Gym, Aerobics, Cardio, Zumba, etc. We have indoor courts for various sports like Basketball, Football, Badminton, Table-Tennis, Squash etc.
+                        <br>
+                        Our Club is very flexible to new ideas.This means that if you want some activity which is missing from 
+                        our services you can ask us to start it. If we find other members also wanting that we will start that activity too, <span class="info-matr-hero">because that's what heroes do.....</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info event">
+                <div class="matr">
+                    <div class="info-head">Unsure About Joining Us..., Decide after Attending one of our free Events?</div>
+                    <div class="info-matr">
+                        <ul>
+                            <li>Event Date:23-04-2020<br><br>Workshop on Benefits of Aerobics.<br>Our Aerobics coach will give a 20 minute talk on benefits of Aerobics. Which will be followed by 20 min Aerobic session. If you register after the event at our stall, few of the early members will be eligible for early bird offer.<br><br><br></li>
+                            <li>Event Date:30-04-2020<br><br>Workshop on Benefits of Meditation.<br>Our Meditation Practitioner will have a talk of about 30 minutes on medition, its benefits, its types, etc. If you register after the event at our stall, few of the early members will be eligible for early bird offer.<br><br><br></li>
+                        </ul>
+                    
+                        <p>More Events Coming Soon......</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer for website details  -->
+        <div class="footer">
+            <div class="foot-abt">
+                This website is our College Assignment. This project work is done by Devyansh Shukla, Aditya Ray & Suraj Kumar Giri
+            </div>
+            <center><hr width=98% color="black"></center>
+            <div class="foot-social">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <center><hr width=98% color="black"></center>
+            <div class="footer-site-map">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="trainings.html">TRAININGS</a></li>
+                    <li><a href="time_table.html">TIME TABLE</a></li>
+                    <li><a href="nutrition.html">NUTRITION</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                </ul>
+            </div><center>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.4562647209063!2d77.28245181440829!3d28.67599508886473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfdfa07529261%3A0x766bb85c797bd59d!2sLet&#39;s%20Burn%20Fitness%20Center!5e0!3m2!1sen!2sin!4v1586396378643!5m2!1sen!2sin" width="60%" height="450px" frameborder="0" margin-left="auto" margin-right="auto" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </center>
+            </div>      
+        
+        
+        <!-- ////script for slides////// -->
+        <script >
+            // function for slideshow of quotes
+            var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plus_slide(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function current_slide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("my-slides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                }
+
+
+
+
+                // function for mobile menu opening
+                function show_mob_nav(){
+                    var x=document.getElementById('chk-open');
+                    if(x.style.display==="none"){
+                        x.style.display="inline-block";
+                    }else{
+                        x.style.display="none";
+                    }
+                }
+            </script>
+
+
+    </body>
+</html>
